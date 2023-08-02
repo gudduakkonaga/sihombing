@@ -1,0 +1,335 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+	min-height: 5000px;
+	background-color: #012356;
+}
+.navigasi{
+	margin: 0;
+	padding: 0;
+	background-color: #081064;
+	height: 4rem;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	}
+	
+.navigasi .logo a{
+	text-transform: capitalize;
+	text-decoration: none;
+	color: white;
+	margin-left: 5rem;
+	font-size: 2rem;
+}
+.navigasi .top-navigasi a{
+	color: white;
+	text-transform: capitalize;
+	margin-left: 10rem;
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+.navigasi .top-navigasi a:hover{
+	border-bottom: 3px solid yellow;
+}
+/*sidebar menu*/
+.menu-bar{
+	padding: 2rem;
+	color: white;
+}
+.pengantar-menu h1{
+	text-transform: capitalize;
+	font-size: 2rem;
+}
+span{
+	color: yellow;
+}
+.fullstack{
+	display: flex;
+	padding: 1rem;
+}
+.fullstack p{
+	font-size: 1.8rem;
+	line-height:3rem;
+	color: white;
+}
+.fullstack img{
+	display: flex;
+	width: 50%;
+	height: 50%;
+	margin-left: 2rem;
+	border-radius: 6px;
+}
+/*sidebar bawah*/
+.konsultasi{
+	margin: 2rem  3rem;
+	background-color: #022356;
+}
+.title-kons h2{
+	color: white;
+	display: flex;
+	align-items: center;
+	margin: auto;
+	font-size: 3rem;
+}
+.badan-kons{
+	display: flex;
+	padding-top: 2rem;
+}
+.badan-kons img{
+	width: 50%;
+	height: 40%;
+	border-radius: 15px;
+}
+.badan-kons p{
+	display: flex;
+	color: white;
+	margin: 0rem 0rem 0rem 2rem; 
+	line-height:2.1rem;
+	font-size: 1.5rem;
+}
+
+/*kelas full stack*/
+.menu-section{
+	margin: 2rem;
+	padding: 1.5rem;
+}
+.title-full{
+	text-transform: capitalize;
+	align-items: center;
+	color: white;
+	font-size: 2rem;
+}
+.title-full h1{
+	display: flex;
+	align-items: center;
+}
+.title-full p{
+	display: flex;
+	text-align: center;
+	color: yellow;
+}
+.section-menu{
+	display: flex;
+	padding-top: 2rem;
+}
+.section-menu img{
+	width: 40%;
+	border-radius: 12px;
+}
+.section-menu p{
+	margin-left: 4rem;
+	color: white;
+	font-size: 2.5rem;
+	line-height: 5rem;
+}
+/*sidebar bawah*/
+.menu-bawah{
+	padding: 3rem;
+}
+.badan-menu{
+	padding: 3rem;
+}
+.badan-menu h1{
+	color: white;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 3rem;	
+}
+.badan-menu p{
+	color: white;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 1.5rem;	
+}
+.badan-gambar{
+display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	background-color: #051525;
+	/*padding-top: 3rem;
+	bottom: 3rem;
+	margin-bottom: 3rem;*/
+}
+.badan-gambar{
+	border-radius: 10px;
+}
+.html {
+width: 12rem;
+height: auto;
+	margin: 2.5rem;
+	padding: 2rem;
+	border: 8px solid white;
+	border-radius: 9px;
+}
+.css {
+width: 12rem;
+height:auto;
+	margin: 2.5rem;
+	padding: 4rem;
+	border: 8px solid white;
+	border-radius: 9px;
+	color: white;
+}
+.Bootstrap {
+width: 12rem;
+height: auto;
+	margin: 2.5rem;
+	padding: 4rem;
+	border: 8px solid white;
+	border-radius: 9px;
+	color: white;
+}
+.javascript{
+width: 12rem;
+height: auto;
+	margin: 2.5rem;
+	padding: 4rem;
+	border: 8px solid white;
+	border-radius: 9px;
+	color: white;
+}
+.java{
+width: 12rem;
+height: auto;
+	margin: 2.5rem;
+	padding: 4rem;
+	border: 8px solid white;
+	border-radius: 9px;
+	color: white;
+}
+.php{
+width: 12rem;
+height: auto;
+	margin: 2.5rem;
+	padding: 4rem;
+	border: 8px solid white;
+	border-radius: 9px;
+	color: white;
+}
+.cplus2{
+width: 12rem;
+height: auto;
+	margin: 2.5rem;
+	padding: 4rem;
+	border: 8px solid white;
+	border-radius: 9px;
+	color: white;
+}
+.reactjs{
+width: 12rem;
+height: auto;
+	margin: 2.5rem;
+	padding: 4rem;
+	border: 8px solid white;
+	border-radius: 9px;
+	color: white;
+}
+.mysql{
+width: 12rem;
+height: auto;
+	margin: 2.5rem;
+	padding: 4rem;
+	border: 8px solid white;
+	border-radius: 9px;
+	color: white;
+}
+.mongo{
+width: 12rem;
+height: auto;
+	margin: 2.5rem;
+	padding: 4rem;
+	border: 8px solid white;
+	border-radius: 9px;
+	color: white;
+}
+.phyton{
+width: 12rem;
+height: auto;
+	margin: 2.5rem;
+	padding: 4rem;
+	border: 8px solid white;
+	border-radius: 9px;
+	color: white;
+}
+
+/*footer*/
+.footer{
+
+}
+.top-footer h1{
+	color: white;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 2.5rem;
+	padding: 2rem;
+}
+.contack-kami{
+	color: yellow;
+	padding: 3rem;
+	line-height: 3.5rem;
+}
+.contack-kami{
+	margin-left: 1rem;
+}
+.contack-kami h4{
+	margin-left: 3rem;
+}
+.facebook {
+	display: flex;
+	flex-wrap: wrap;
+	text-transform: capitalize;
+	margin-left: 10rem;
+	align-items: center;
+	font-size: 2rem;
+	/*background-color: black;
+	border-radius: 10px;*/
+}
+.mail {
+	display: flex;
+	flex-wrap: wrap;
+	text-transform: capitalize;
+	margin-left: 10rem;
+	align-items: center;
+	font-size: 2rem;
+	/*background-color: black;
+	border-radius: 10px;*/
+}
+.instagram{
+	display: flex;
+	flex-wrap: wrap;
+	text-transform: capitalize;
+	margin-left: 10rem;
+	align-items: center;
+	font-size: 2rem;
+	/*background-color: green;
+	border-radius: 10px;*/
+}
+.phone {
+	display: flex;
+	flex-wrap: wrap;
+	text-transform: capitalize;
+	margin-left: 10rem;
+	align-items: center;
+	font-size: 2rem;
+	/*background-color: red;
+	border-radius: 10px;*/
+}
+.youtube {
+	display: flex;
+	flex-wrap: wrap;
+	text-transform: capitalize;
+	margin-left: 10rem;
+	align-items: center;
+	font-size: 2rem;
+	/*background-color: pink;
+	border-radius: 10px;*/
+}
+.kaki-web{
+	background-color: #FFA500;
+}
